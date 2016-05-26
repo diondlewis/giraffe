@@ -1,0 +1,56 @@
+/* add your CSS here */
+* {
+	font-family: 'Dosis', sans-serif;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 5em;
+  font-family: Arial, sans-serif;
+  background: rgba(241,231,103,1);
+  background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+  background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+}
+h1 {
+  border: 1px;
+}
+#fact {
+  font-style: italic;
+}
+
+#description {
+  border: 1px solid gray;
+  padding: 2em;
+  -webkit-box-shadow: 10px 10px 52px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 52px -13px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 52px -13px rgba(0,0,0,0.75);
+background-color: white;
+}
+
+.information {
+  font-weight: bold;
+}
+.list {
+  font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#picture {
+  border: 1px;
+  width: 300px;
+  padding: 2em;
+  margin: 2em;
+  -webkit-box-shadow: 10px 10px 52px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 52px -13px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 52px -13px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+
